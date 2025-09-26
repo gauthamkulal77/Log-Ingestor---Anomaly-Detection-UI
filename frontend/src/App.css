@@ -1,0 +1,200 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Filter container */
+.filter-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.filter-container input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filter-container .date-field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.filter-container .date-field label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+/* Reset button */
+.reset-container {
+  margin: 15px 0;
+}
+
+.reset-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Table */
+.log-display {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0077b6;
+  color: white;
+}
+
+.prediction.anomaly {
+  color: red;
+  font-weight: bold;
+}
+
+.prediction.normal {
+  color: green;
+  font-weight: bold;
+}
+.prediction {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.prediction.anomaly {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #c62828;
+}
+
+.prediction.normal {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.date-range {
+  display: flex;
+  gap: 12px;
+}
+
+.date-field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.date-field label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.date-field input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+/* Center and style main title */
+.main-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+/* Adjust header to center everything */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+th {
+  background-color: #e0f0ff; /* light blue */
+  color: #003366;            /* dark navy text for contrast */
+  font-weight: 600;
+  padding: 12px;
+  text-align: center;
+}
+/* Common style for prediction badges */
+.prediction {
+  display: inline-block;
+  min-width: 80px;        /* ensures both Normal & Anomaly have same width */
+  padding: 4px 10px;      /* consistent padding */
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 12px;    /* pill-shaped */
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Normal badge */
+.prediction.Normal {
+  background-color: #e6f9e6;
+  color: #2d7a2d;
+  border: 1px solid #2d7a2d;
+}
+
+/* Anomaly badge */
+.prediction.Anomaly {
+  background-color: #ffe6e6;
+  color: #b32d2d;
+  border: 1px solid #b32d2d;
+}
+
+
+

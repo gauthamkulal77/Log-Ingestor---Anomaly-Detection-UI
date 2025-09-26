@@ -1,0 +1,9 @@
+runtime: python311  # Specifies the Python version
+
+# Tells App Engine how to start your web server
+entrypoint: gunicorn -b :$PORT app:app
+
+# Environment variables that will be available to your application
+env_variables:
+  MONGO_URI: "mongodb+srv://gauthamkulal4_db_user:7Knzbhxp8JQvpirm@cluster0.m09xwpb.mongodb.net/?retryWrites=true&w=majority"
+
