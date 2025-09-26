@@ -1,0 +1,2 @@
+# Log-Ingestor  & Anomaly Detection UI
+A full-stack log ingestor with a React UI and Python backend. This tool uses a mock AI model to classify logs as "normal" or "anomaly" and stores them in MongoDB. The interface allows for dynamic, real-time filtering and searching of all log data. Log Ingestor & Query Interface  A full-stack log management system to ingest, search, filter, and analyze logs with AI-powered anomaly detection. Built with React (frontend), Flask (backend), and MongoDB Atlas (database).
