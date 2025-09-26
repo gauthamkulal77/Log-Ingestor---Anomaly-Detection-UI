@@ -6,7 +6,7 @@ Log Ingestor & Query Interface
 A full-stack log management system to ingest, search, filter, and analyze logs with AI-powered anomaly detection.
 Built with React (frontend), Flask (backend), and MongoDB Atlas (database).
 
-Live Webpage :(https://log-ingestor-project-123-e0d04.web.app/)
+Live Webpage : https://log-ingestor-project-123-e0d04.web.app/
 
 
 Features
