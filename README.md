@@ -27,8 +27,7 @@ Tech Stack
 
 Getting Started
   1. Clone the Repository
-     git clone https://github.com/gauthamkulal77/log-ingestor.git
-     cd log-ingestor
+     git clone : https://github.com/gauthamkulal77/Log-Ingestor---Anomaly-Detection-UI
 
   2. Backend Setup (Flask API)
     
