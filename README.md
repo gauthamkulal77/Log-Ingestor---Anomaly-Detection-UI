@@ -102,7 +102,8 @@ Backend (Google App Engine – Flask)
     gcloud app logs tail -s default
 
 SCREENSHOTS:
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9b543f0e-99fe-49cf-be22-54b34a1c79b7" />
+<img width="1360" height="684" alt="image" src="https://github.com/user-attachments/assets/4ad23f6f-2670-4351-b7cc-d2618731d478" />
+
 
 
 Requirements.txt (Backend)                                                                                                                                                                
